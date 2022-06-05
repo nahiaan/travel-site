@@ -1,0 +1,276 @@
+:root {
+  --deep-orange: #db7a4e;
+  --formal-blue: #335576;
+  --home-white: #fefaf5;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* background-body images */
+
+.background-img__container {
+  background-image: url(../assets/images/hawaii.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding-top: 1px;
+}
+
+.background-img__iceland {
+  background-image: url(../assets/images/iceland.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.background-img__greece {
+  background-image: url(../assets/images/greece.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.background-img__container {
+  position: relative;
+}
+
+.hawaii-title__wrapper {
+  position: absolute;
+}
+
+.hawaii-title__wrapper h1 {
+  margin-top: 120px;
+}
+
+/*nav bar*/
+
+.main-nav__title {
+  color: #335576;
+  padding-left: 70px;
+  width: 200px;
+}
+
+.main-nav__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.main-nav__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 850px;
+  padding-right: 100px;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 -5px;
+}
+
+.main-nav__wrapper--hover {
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.main-nav__item--hawaii {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
+.main-nav__item--greece {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
+.main-nav__item--iceland {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
+#home:hover {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
+#hawaii:hover {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
+#iceland:hover {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
+#greece:hover {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
+.nav__links {
+  color: black;
+  text-decoration: none;
+}
+
+/* cards */
+
+.hawaii {
+  color: #fff;
+  font-size: 70px;
+  margin-top: 60px;
+  margin-left: 70px;
+}
+
+.hawaii__wrapper {
+  position: relative;
+  top: 140px;
+  padding-top: 1px;
+}
+
+.hawaii-itinerary {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.itinerary-items {
+  background-color: #fff;
+  width: 270px;
+  height: 400px;
+  margin: 40px;
+  border-radius: 5px;
+}
+
+.itinerary__content {
+  background-color: #fefaf5;
+  padding: 12px;
+  text-align: center;
+  margin: 25px 15px;
+}
+
+.itinerary__day {
+  border-bottom: 2px solid black;
+  text-align: center;
+  margin: 25px 15px;
+  font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+  margin-top: -40px;
+  background-color: #fefaf5;
+}
+
+.footer__contact ul {
+  list-style-type: none;
+}
+
+.footer__container a {
+  color: #335576;
+  text-decoration: none;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+  margin-left: 110px;
+}
+
+.footer__container,
+.footer__contact,
+.hours,
+.social {
+  margin-top: 40px;
+  color: #335576;
+}
+
+.footer__contact {
+  margin-left: -40px;
+}
+
+.social {
+  margin-right: 60px;
+}
+
+.hours p {
+  margin-top: 15px;
+}
+
+.hours h3 {
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+.hours__wrapper {
+  display: flex;
+  margin-top: 35px;
+}
+
+.hours__inner {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer__contact li {
+  margin-top: 10px;
+}
+
+.footer__contact p {
+  color: #db7a4e;
+}
+
+.footer-contact__info {
+  margin-top: 35px;
+}
+
+.social img {
+  margin-top: 60px;
+  margin-right: 10%;
+  width: 30px;
+  height: 30px;
+}
+
+.facebook-logo {
+  margin-left: 30px;
+}
+
+.twitter-logo {
+  margin-left: 30px;
+}
+
+.social h3 {
+  margin-top: 9px;
+}
+
+.social__logos {
+  display: flex;
+}
+
+.footer__container h3 {
+  font-size: 30px;
+}
+
+.hours__wrapper h6 {
+  font-weight: 100;
+  color: #db7a4e;
+  font-size: 13px;
+}
+
+.footer__email {
+  font-size: 13px;
+}

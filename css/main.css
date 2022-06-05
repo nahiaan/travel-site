@@ -1,0 +1,287 @@
+:root {
+  --deep-orange: #db7a4e;
+  --formal-blue: #335576;
+  --home-white: #fefaf5;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Nav bar */
+
+.main-nav__title {
+  color: #335576;
+  padding-left: 70px;
+  width: 200px;
+}
+
+.main-nav__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  z-index: 99;
+}
+
+.main-nav__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 850px;
+  padding-right: 100px;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 15px;
+}
+.main-nav__wrapper--hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#home {
+  border-bottom: 2px solid #db7a4e;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+
+#home:hover {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+#hawaii:hover {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+#iceland:hover {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+#greece:hover {
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
+.nav__links {
+  color: black;
+  text-decoration: none;
+}
+
+/* Hero container */
+
+.hero-image {
+  width: 450px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.hero__section {
+  background-color: #fefaf5;
+  display: flex;
+  height: 600px;
+  justify-content: space-evenly;
+}
+
+.hero__cta {
+  background-color: #db7a4e;
+  border: none;
+  color: #fff;
+  padding: 9px 40px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 16px;
+  margin-top: 50px;
+  margin-left: 10px;
+  transition-duration: 0.5s;
+}
+
+.hero__cta:hover {
+  background-color: #b16440;
+}
+
+.hero__cta a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-section__title,
+.hero-slogan {
+  color: #335576;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.hero-slogan {
+  padding-top: 10px;
+}
+
+.hero-section__container {
+  width: 500px;
+  height: 1000px;
+  margin-top: 100px;
+}
+
+/* recommendations card section */
+
+.card-title {
+  line-height: 5em;
+  margin-left: 120px;
+  margin-top: -10px;
+  color: #335576;
+  font-size: 1.7rem;
+}
+
+.card__container {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.card-content__hawaii,
+.card-content__iceland,
+.card-content__greece {
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 40px;
+  padding: 0;
+}
+
+.card-country__image {
+  max-width: 300px;
+  max-height: 500px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card__image {
+  position: relative;
+}
+
+.card-country__title {
+  position: absolute;
+  bottom: 17px;
+  right: 0;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 100px;
+  background-color: #fefaf5;
+}
+
+.footer__contact ul {
+  list-style-type: none;
+}
+
+.footer-contact__info {
+  color: #335576;
+  text-decoration: none;
+}
+
+.footer-contact__info a {
+  text-decoration: none;
+  color: #335576;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+  margin-left: 110px;
+}
+
+.footer__container,
+.footer__contact,
+.hours,
+.social {
+  margin-top: 40px;
+  color: #335576;
+}
+
+.footer__contact {
+  margin-left: -40px;
+}
+.social {
+  margin-right: 60px;
+}
+
+.hours p {
+  margin-top: 15px;
+}
+
+.hours h3 {
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+.hours__wrapper {
+  display: flex;
+  margin-top: 35px;
+}
+
+.hours__inner {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer__contact li {
+  margin-top: 10px;
+}
+
+.footer__contact p {
+  color: #db7a4e;
+}
+
+.footer-contact__info {
+  margin-top: 35px;
+}
+
+.footer__container h3 {
+  font-size: 30px;
+}
+
+.footer__email {
+  font-size: 13px;
+}
+
+.social img {
+  margin-top: 60px;
+  margin-right: 10%;
+  width: 30px;
+  height: 30px;
+}
+
+.facebook-logo {
+  margin-left: 30px;
+}
+
+.twitter-logo {
+  margin-left: 30px;
+}
+
+.social h3 {
+  margin-top: 9px;
+}
+
+.social__logos {
+  display: flex;
+}
+
+.hours__wrapper h6 {
+  font-weight: 100;
+  color: #db7a4e;
+  font-size: 13px;
+}
